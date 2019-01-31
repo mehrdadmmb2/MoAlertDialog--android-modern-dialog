@@ -16,7 +16,7 @@ Add the dependency
 
 <pre>
 dependencies {
-	        implementation 'com.github.mehrdadmmb2:MoAlertDialog:0.9.9'
+	        implementation 'com.github.mehrdadmmb2:MoAlertDialog:1.0.0'
 	}
 </pre>
 
