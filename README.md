@@ -1,3 +1,25 @@
+#How to install?
+
+Gradle:
+
+Add it in your root build.gradle at the end of repositories:
+
+<pre>
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+</pre>
+Add the dependency
+
+<pre>
+dependencies {
+	        implementation 'com.github.mehrdadmmb2:MoAlertDialog:0.9.9'
+	}
+</pre>
+
 # How to use?
 
 1- Initialize MoAlertDialog:
