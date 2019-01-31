@@ -1,6 +1,9 @@
+# What is this?
+MoAlertDialog is a modern AlertDialog for Android.
+You need AppCompat 26.0.0 or later and min SDK 14 To use this library.
+
 # How to install?
 
-Gradle:
 
 Add it in your root build.gradle at the end of repositories:
 
@@ -28,17 +31,12 @@ dependencies {
 2- Show default Error or Success dialog:
 <pre>
 dialog.showErrorDialog("Title", "Body");
-</pre>
-
-![alt text](http://s8.picofile.com/file/8350731926/Screenshot_20190131_143704_MoAlertDialog.jpg)
-
-<pre>
 dialog.showSuccessDialog("Title","Body");
 </pre>
 
-![alt text](http://s8.picofile.com/file/8350731976/Screenshot_20190131_143834_MoAlertDialog.jpg)
+<img src="http://s8.picofile.com/file/8350731926/Screenshot_20190131_143704_MoAlertDialog.jpg" width='300px'> <img src="http://s8.picofile.com/file/8350731976/Screenshot_20190131_143834_MoAlertDialog.jpg" width='300px'>
 
-3- You can change all dialog's options:
+3-  After use the show methos you can change all dialog's options:
 <pre>
 dialog.setDialogHeaderColor(int color)
 dialog.setDialogBackgroundColor(int color)
