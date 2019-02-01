@@ -9,18 +9,18 @@ Add it in your root build.gradle at the end of repositories:
 
 <pre>
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+	...
+		maven { url 'https://jitpack.io' }
 	}
+}
 </pre>
 Add the dependency
 
 <pre>
 dependencies {
-	        implementation 'com.github.mehrdadmmb2:MoAlertDialog:1.0.1'
-	}
+	implementation 'com.github.mehrdadmmb2:MoAlertDialog:1.0.1'
+}
 </pre>
 
 # How to use?
