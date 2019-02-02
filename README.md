@@ -36,7 +36,7 @@ dialog.showSuccessDialog("Title","Body");
 
 <img src="http://s8.picofile.com/file/8350731926/Screenshot_20190131_143704_MoAlertDialog.jpg" width='300px'> <img src="http://s8.picofile.com/file/8350731976/Screenshot_20190131_143834_MoAlertDialog.jpg" width='300px'>
 
-3-  After use the show methos you can change all dialog's options:
+3-  After the use of one of the show methods, you can change all the dialog's options:
 <pre>
 dialog.setDialogHeaderColor(int color)
 dialog.setDialogBackgroundColor(int color)
