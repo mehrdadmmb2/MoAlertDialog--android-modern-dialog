@@ -69,7 +69,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
-            android:gravity="center"
             android:orientation="horizontal">
 
             <Button
@@ -81,6 +80,7 @@
                 android:background="@drawable/back_btn_red"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
+                android:layout_gravity="center"
                 android:text="OK"
                 android:textColor="#ffffff" />
 

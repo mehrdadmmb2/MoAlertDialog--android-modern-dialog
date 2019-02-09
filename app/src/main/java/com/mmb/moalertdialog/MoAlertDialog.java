@@ -3,8 +3,11 @@ package com.mmb.moalertdialog;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
+import android.view.Gravity;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.Window;
+import android.view.animation.Animation;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -121,6 +124,10 @@ public class MoAlertDialog {
 
     public void setOnButtonClickListener(View.OnClickListener listener) {
         dilog_button.setOnClickListener(listener);
+    }
+
+    public void setDialogIconAnimation(Animation animation){
+        diolg_icon.setAnimation(animation);
     }
 
 }
