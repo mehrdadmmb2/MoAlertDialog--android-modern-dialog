@@ -47,6 +47,9 @@ dialog.setDialogTitleTextColor(int color)
 dialog.setDialogContentTextColor(int color)
 dialog.setDilogIcon(int icon)
 dialog.setDialogCancelable(boolean cancelable)
+dialog.setDialogIconAnimation(Animation animation)
+dialog.setTypeface(Typeface typeface)
+dialog.setContentGravity(int gravity)
 dialog.dismis()
 </pre>
 Also you can set clickHandler on dialog's button;
